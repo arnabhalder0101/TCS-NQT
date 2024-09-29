@@ -5,7 +5,7 @@ n = int(input("range: "))
 sum = x
 t = x
 
-for i in range(1, n):
+for i in range(1, n+1):
     t = -t * (x) / (i + 1)
     sum += t
 
