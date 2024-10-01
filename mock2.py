@@ -1,8 +1,8 @@
 import math
 
 l = input()
-r = int(math.sqrt(len(l)))
-c = int(math.sqrt(len(l)))
+r = math.floor(math.sqrt(len(l)))
+c = math.ceil(math.sqrt(len(l)))
 
 s = 0
 index = 0
