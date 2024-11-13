@@ -14,5 +14,8 @@ fibbo(num, 0, 1)
 
 
 def sunFibo(num):
-    
-    return sunFibo(num)+sunFibo(num+1)
+    if num == 0:
+        return 0
+    return sunFibo(num)+sunFibo(num-1)
+
+# print(sunFibo(15))
