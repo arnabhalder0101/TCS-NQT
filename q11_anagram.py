@@ -11,3 +11,5 @@ def isAnagram(str1, str2):
 
 print(sorted(s1, reverse=True), sorted(s2))
 print(isAnagram(s1, s2))
+
+
